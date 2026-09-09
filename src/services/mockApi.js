@@ -24,6 +24,10 @@ export function fetchWorkers() {
   return delay(workers)
 }
 
+export function fetchBadges() {
+  return delay(badges)
+}
+
 export function fetchWorkerHistory(workerId) {
   return delay(readingsForWorker(workerId))
 }
